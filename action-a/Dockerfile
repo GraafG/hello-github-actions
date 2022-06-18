@@ -1,4 +1,4 @@
-FROM debian:9.5-slim
+FROM buster-slim
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
